@@ -2,9 +2,7 @@ import React from 'react';
 import StatusUpdate from './statusupdate';
 import CommentThread from './commentthread';
 import Comment from './comment';
-import {postComment} from '../server';
-import {likeFeedItem} from '../server';
-import {unlikeFeedItem} from '../server';
+import {postComment, likeFeedItem, unlikeFeedItem} from '../server';
 
 export default class FeedItem extends React.Component {
   constructor(props) {
