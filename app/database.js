@@ -30,7 +30,7 @@ var initialData = {
       "likeCounter": [
         2,3
       ],
-      "type": "StatusUpdate",
+      "type": "statusUpdate",
       "contents": {
         "author": 1,
         "postDate": 1453668480000,
